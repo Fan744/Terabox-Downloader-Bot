@@ -74,7 +74,7 @@ if len(FSUB_ID) == 0:
 else:
     FSUB_ID = int(FSUB_ID)
 
-USER_SESSION_STRING = os.environ.get('USER_SESSION_STRING', '')
+USER_SESSION_STRING = os.environ.get('USER_SESSION_STRING', 'BQF1s6cAaU92TOTg-IxzONfW91gDvfPfb-2p9W8AZQg4uDy0MMAgrS-A4TZzgH52s6oW9mWzmnfrl0LCa57oZQx5jciIX66EiowHEPmnyV-exawAyboY40ytYGJCu-fmoKB5TInYyL6W2G41kRiSX750b7XpkYA_tLcoGpZAogW_pBOkavskGo_jpDeuyMSRzQnFarR0ktONCGDJfosCVuCqru_JqIMwgn2YmbQID4zjQ9yoONxkRg7NwlQD8CeLl75rW181b-SFKTevC1NVocwvfkEAaE_Ttdi7CvJKsixSrNLPnGpO_cVoxV2qXbKWJcUfQvXjG485_5vB_1io3JFfJkOFOwAAAAGdq319AA')
 if len(USER_SESSION_STRING) == 0:
     logging.info("USER_SESSION_STRING variable is missing! Bot will split Files in 2Gb...")
     USER_SESSION_STRING = None
